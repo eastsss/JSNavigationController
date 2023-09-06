@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6543C0A02AA8D6BC001FF3BF /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6543C09F2AA8D6BC001FF3BF /* Package.swift */; };
 		F64FD2BA1CF0740800D93BED /* JSNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = F64FD2B91CF0740800D93BED /* JSNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F64FD2C11CF0740800D93BED /* JSNavigationController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F64FD2B61CF0740800D93BED /* JSNavigationController.framework */; };
 		F64FD2DB1CF076D700D93BED /* JSNavigationBarControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64FD2D91CF076D700D93BED /* JSNavigationBarControllerTests.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6543C09F2AA8D6BC001FF3BF /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		F64FD2B61CF0740800D93BED /* JSNavigationController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSNavigationController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F64FD2B91CF0740800D93BED /* JSNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSNavigationController.h; sourceTree = "<group>"; };
 		F64FD2BB1CF0740800D93BED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 		F64FD2AC1CF0740800D93BED = {
 			isa = PBXGroup;
 			children = (
+				6543C09F2AA8D6BC001FF3BF /* Package.swift */,
 				F64FD2B81CF0740800D93BED /* JSNavigationController */,
 				F64FD2C41CF0740800D93BED /* JSNavigationControllerTests */,
 				F64FD2B71CF0740800D93BED /* Products */,
@@ -233,6 +236,7 @@
 				F67D71CA1CF5E1FA003F8B91 /* JSNavigationBarController.swift in Sources */,
 				F655C1641D00ABE3005208A1 /* JSViewController.swift in Sources */,
 				F67D71CD1CF5E1FA003F8B91 /* JSViewControllersStackManager.swift in Sources */,
+				6543C0A02AA8D6BC001FF3BF /* Package.swift in Sources */,
 				F67D71CC1CF5E1FA003F8B91 /* JSNavigationController.swift in Sources */,
 				F6E5D0B01CF88C4C000874A3 /* JSNavigationControllerDelegate.swift in Sources */,
 				F6ED5F5F1CFF488300CF7222 /* JSNavigationControllerSegue.swift in Sources */,
